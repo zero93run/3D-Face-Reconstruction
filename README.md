@@ -22,4 +22,4 @@ based on a single 2D training image per person, In Pattern Recognition Letters,2
 1. 2016-05-19 Create GitHub homepage.
 
 ## To Do List
-1. Read paper.
+1. Read papers.
