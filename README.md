@@ -20,6 +20,8 @@ based on a single 2D training image per person, In Pattern Recognition Letters,2
 
 ## Time Line
 1. 2016-05-19 Create GitHub homepage.
+2. 2016-05-27 Read all reference papers.
 
 ## To Do List
-1. Read papers.
+1. 2016-05-19 Read papers.
+2. 2016-05-27 Create solution.
