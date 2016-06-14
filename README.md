@@ -64,6 +64,11 @@ DirectX（Direct eXtension，简称DX）是由微软公司创建的多媒体编�
 
 ### 6.1 Algorithm 
 
+1.  读入人脸模型、harr检测器和图像；
+2.  利用opencv harr算法检测图像中人脸矩形区域；
+3.  基于人脸矩形区域，利用asm算法提取人脸特征点；
+4.  纹理映射。
+
 ### 6.2 Require
 
 1. Directx9
