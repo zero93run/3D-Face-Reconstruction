@@ -2,6 +2,7 @@
 
 ## 1. Team
 
+ 自动化学院   
  倪子涵 杨丽秦 苏伟 彭军才
 
 ## 2. Introduction
@@ -22,11 +23,11 @@ based on a single 2D training image per person, In Pattern Recognition Letters,2
 1. 2016-05-19 —— 2016-05-31  
 创建Github主页  [https://github.com/zero93run/3D-Face-Reconstruction](https://github.com/zero93run/3D-Face-Reconstruction)
 2. 2016-05-31 —— 2016-06-01  
-看参考文献  “Total Moving Face Reconstruction, In ECCV 2014”.
+阅读参考文献  “Total Moving Face Reconstruction, In ECCV 2014”.
 3. 2016-06-02 —— 2016-06-03   
-看参考文献   “3D Face Reconstruction from a Single Image using a Single Reference Face Shape, In TPAMI”.
+阅读参考文献   “3D Face Reconstruction from a Single Image using a Single Reference Face Shape, In TPAMI”.
 4. 2016-06-03 —— 2016-06-04  
-看参考文献  "State-of-the-Art 3D facial reconstruction methods for face recognition based on a single 2D training image per person, In Pattern Recognition Letters,2009".
+阅读参考文献  "State-of-the-Art 3D facial reconstruction methods for face recognition based on a single 2D training image per person, In Pattern Recognition Letters,2009".
 5. 2016-06-04 —— 2016-06-05   
 确定项目解决方案：首先利用asm算法提取人脸特征点，通过特征点来构建3D模型，然后利用directX将2D纹理映射到3D人脸模型。
 6. 2016-06-05 —— 2016-06-07  
