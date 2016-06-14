@@ -47,16 +47,13 @@ ASM是基于统计学习模型的特征点提取的一种方法。这个方法�
 2.  Asm搜索：计算每个特征点的新位置，仿射变换中的参数更新。
 
 ### 5.2 DirectX
-DirectX（Direct eXtension，简称DX）是由微软公司创建的多媒体编程接口。由C++编程语言实现，遵循COM。被广泛使用于Microsoft Windows、Microsoft XBOX、Microsoft XBOX 360和Microsoft XBOX ONE电子游戏开发，并且只能支持这些平台。  
-DirectX是由很多API组成的，按照性质分类，可以分为四大部分，显示部分、声音部分、输入部分和网络部分。
+DirectX（Direct eXtension，简称DX）是由微软公司创建的多媒体编程接口。由C++编程语言实现，遵循COM。被广泛使用于Microsoft Windows、Microsoft XBOX、Microsoft XBOX 360和Microsoft XBOX ONE电子游戏开发，并且只能支持这些平台。DirectX是由很多API组成的，按照性质分类，可以分为四大部分，显示部分、声音部分、输入部分和网络部分。
 
-1. 显示部分：显示部分担任图形处理的关键，分为DirectDraw（DDraw）和Direct3D（D3D），前者主要负责2D图像加速。它包括很多方面：我们播放mpg、DVD电影、看图、玩小游戏等等都是用的DDraw，你可以把它理解成所有划线的部分都是用的DDraw。后者则主要负责3D效果的显示，比如CS中的场景和人物、FIFA中的人物等等，都是使用了DirectX的Direct3D。  
-2.  声音部分：声音部分中最主要的API是DirectSound，除了播放声音和处理混音之外，还加强了3d音效，并提供了录音功能。我们前面所举的声卡兼容的例子，就是利用了DirectSound来解决的。  
-3.  输入部分：输入部分DirectInput可以支持很多的游戏输入设备，它能够让这些设备充分发挥最佳状态和全部功能。除了键盘和鼠标之外还可以连接手柄、摇杆、模拟器等。  
-4.  网络部分：网络部分DirectPlay主要就是为了具有网络功能游戏而开发的，提供了多种连接方式，TCP/IP，IPX，Modem，串口等等，让玩家可以用各种连网方式来进行对战，此外也提供网络对话功能及保密措施。
 
 ## 6. Solution  
-### 6.1 Require
+### 6.1 Algorithm 
+### 6.2 Require
 1. Directx9
 2. Opencv
 3. Asmlibrary
+### 6.3 Result
