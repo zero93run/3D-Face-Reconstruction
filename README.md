@@ -28,11 +28,11 @@ based on a single 2D training image per person, In Pattern Recognition Letters,2
 4. 2016-06-03 —— 2016-06-04  
 看参考文献  "State-of-the-Art 3D facial reconstruction methods for face recognition based on a single 2D training image per person, In Pattern Recognition Letters,2009".
 5. 2016-06-04 —— 2016-06-05   
-确定项目解决方案：首先利用asm算法提取人脸特征点，然后利用directX渲染显示3D人脸模型。
+确定项目解决方案：首先利用asm算法提取人脸特征点，通过特征点来构建3D模型，然后利用directX将2D纹理映射到3D人脸模型。
 6. 2016-06-05 —— 2016-06-07  
- 利用Asmlibrary算法提取人脸特征点。
+ 利用Asmlibrary算法提取人脸特征点，构建3D模型。
 7. 2016-06-06 —— 2016-06-09   
-利用directX渲染显示3D人脸模型。
+利用directX将2D纹理映射到3D人脸模型。
 8. 2016-06-10 —— 2016-06-13  
 利用MFC开发项目界面。
 9. 2016-06-12 —— 2016-06-14  
