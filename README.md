@@ -1,4 +1,4 @@
-# 3D Face Reconstruction
+﻿# 3D Face Reconstruction
 
 ## Team
 
@@ -42,4 +42,4 @@ based on a single 2D training image per person, In Pattern Recognition Letters,2
 ### Paper
 ### Asm
 ### DirectX
-## Solution
+## Solution  
