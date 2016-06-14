@@ -1,4 +1,4 @@
-﻿# 3D Face Reconstruction
+# 3D Face Reconstruction
 
 ## Team
 
@@ -43,3 +43,7 @@ based on a single 2D training image per person, In Pattern Recognition Letters,2
 ### Asm
 ### DirectX
 ## Solution  
+### Require
+1. Directx9
+2. opencv
+3. asmlibrary
