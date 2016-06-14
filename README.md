@@ -51,9 +51,12 @@ DirectX（Direct eXtension，简称DX）是由微软公司创建的多媒体编�
 
 
 ## 6. Solution  
+
 ### 6.1 Algorithm 
+
 ### 6.2 Require
 1. Directx9
 2. Opencv
 3. Asmlibrary
+
 ### 6.3 Result
