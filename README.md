@@ -84,3 +84,4 @@ Direct3D绘制五步曲：清屏操作， 开始场景， 正式绘制， 结束
 3. Asmlibrary
 
 ### 6.3 Result
+![image]([https://github.com/zero93run/3D-Face-Reconstruction/blob/master/img.png](https://github.com/zero93run/3D-Face-Reconstruction/blob/master/img.png))
