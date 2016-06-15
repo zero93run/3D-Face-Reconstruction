@@ -57,7 +57,11 @@ ASM是基于统计学习模型的特征点提取的一种方法。这个方法�
 
 ### 5.3 DirectX
 
-DirectX（Direct eXtension，简称DX）是由微软公司创建的多媒体编程接口。由C++编程语言实现，遵循COM。被广泛使用于Microsoft Windows、Microsoft XBOX、Microsoft XBOX 360和Microsoft XBOX ONE电子游戏开发，并且只能支持这些平台。DirectX是由很多API组成的，按照性质分类，可以分为四大部分，显示部分、声音部分、输入部分和网络部分。
+DirectX（Direct eXtension，简称DX）是由微软公司创建的多媒体编程接口。由C++编程语言实现，遵循COM。Microsoft DirectX 是这样一组技术：它们旨在使基于Windows 的计算机成为运行和显示具有丰富多媒体元素（例如全色图形、视频、3D 动画和丰富音频）的应用程序的理想平台。DirectX 包括安全和性能更新程序，以及许多涵盖所有技术的新功能。应用程序可以通过使用DirectX API 来访问这些新功能。DirectX是由很多API组成的，按照性质分类，可以分为四大部分，显示部分、声音部分、输入部分和网络部分。本项目只涉及显示部分，它是图形处理的关键，分为DirectDraw（DDraw）和 Direct3D（D3D），前者主要负责2D图像加速。它包括很多方面：我们播放mpg、DVD电影、看图、玩小游戏等等都是用的DDraw，你可以把它理解成所有划线的部分都是用的DDraw。后者则主要负责3D效果的显示，比如CS中的场景和人物、FIFA中的人物等等，都是使用了DirectX的Direct3D。  
+前台缓冲区和后台缓冲区是位于系统内存或显存里的内存块，对应于将要显示的二维显示区域。前台缓冲区是显示在显示屏上的我们可以看到的内容，而后台缓冲区则主要用于图形绘制的准备工作。在后台缓冲区中的内容准备好之后，就可以和前台缓冲区进行一个交换操作，进行翻转显示，将场景显示出来。  
+Direct3D初始化四步曲:  1、创建Direct3D接口对象,以便用该Direct3D对象创建Direct3D设备对象；2、获取硬件设备信息；3、填充D3DPRESENT_PARAMETERS结构体,指定我们需要在哪个窗口上进行绘制，我们通常都填hwnd；4、创建Direct3D设备接口:用CreateDevice把hwnd和Direct3D设备联系起来。  
+Direct3D绘制五步曲：清屏操作， 开始场景， 正式绘制， 结束场景， 翻转显示。  
+其中，纹理渲染的具体步骤如下：  1、 创建纹理并获得纹理的表面（Surface），2、 向纹理的表面渲染场景，3、 渲染纹理本身。
 
 
 ## 6. Solution  
